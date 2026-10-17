@@ -1,0 +1,43 @@
+# ZAID .gitignore
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+coverage/
+
+# Environment variables (keep example)
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+backend/.venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Databases and logs
+*.db
+*.sqlite
+*.log
+
+# AI model files (never commit — very large)
+*.gguf
+*.safetensors
+OllamaModels/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/settings.json
+
+# Test artifacts
+*.snap
+
+# Vite temp
+.vite/

@@ -1,0 +1,84 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-1) 0;
+  border-bottom: 1px solid rgba(255,122,26,0.08);
+}
+
+.key {
+  font-family: var(--font-display);
+  font-size: var(--fs-xs);
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.val {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--orange);
+  letter-spacing: 0.05em;
+}
+
+.signalBars {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+}
+
+.bar {
+  width: 5px;
+  background: rgba(255,122,26,0.15);
+  border-radius: 2px;
+}
+
+.barActive {
+  background: var(--orange);
+  box-shadow: 0 0 4px var(--orange);
+}
+
+.signalVal {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--orange);
+  margin-left: var(--space-1);
+}
+
+.sparkWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-2);
+  background: rgba(0,0,0,0.2);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  margin-bottom: var(--space-2);
+}
+
+.sparkLabel {
+  font-family: var(--font-display);
+  font-size: var(--fs-xs);
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.sparkWrapper svg {
+  width: 100%;
+  height: auto;
+}
+
+.note {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+  font-style: italic;
+  text-align: center;
+}

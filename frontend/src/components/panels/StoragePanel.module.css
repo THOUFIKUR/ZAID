@@ -1,0 +1,13 @@
+.bars {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-bottom: var(--space-3);
+}
+
+.note {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+  font-style: italic;
+  text-align: center;
+}

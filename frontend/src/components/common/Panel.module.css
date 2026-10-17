@@ -1,0 +1,73 @@
+.panel {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--glow-sm);
+  transition: box-shadow var(--dur-med) var(--ease);
+}
+
+.panel:hover {
+  box-shadow: var(--glow-md);
+}
+
+/* Bottom corner brackets via pseudo-elements on parent .corner-frame */
+.panel::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-color: var(--border-strong);
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+}
+
+/* Left-bottom corner bracket */
+.panel > .corner-frame-bl {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-color: var(--border-strong);
+  border-style: solid;
+  border-width: 0 0 2px 2px;
+  pointer-events: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(135deg, var(--surface-raised), transparent);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin: 0;
+  line-height: 1;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  flex-shrink: 0;
+}
+
+.body {
+  padding: var(--space-3) var(--space-4);
+  position: relative;
+  z-index: var(--z-content);
+}

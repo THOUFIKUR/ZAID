@@ -1,0 +1,408 @@
+[
+  {
+    "id": "9e5673c8-e131-4f48-a55f-45e1db2ec159",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen3.5:4b",
+      "messages": 1
+    },
+    "timestamp": 1792172805.4610436
+  },
+  {
+    "id": "7ced4622-6d65-437e-9c18-b0075fbcbcaa",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 48
+    },
+    "timestamp": 1792172906.3720376
+  },
+  {
+    "id": "5f45a5b0-c67c-45a6-92c2-da691cd0ff14",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen3.5:4b",
+      "messages": 3
+    },
+    "timestamp": 1792172917.0498612
+  },
+  {
+    "id": "985b64f2-1732-4858-a49b-75d61319bbc1",
+    "category": "files",
+    "description": "Directory listed",
+    "meta": {
+      "path": "C:\\Users\\thouf\\Downloads",
+      "count": 13
+    },
+    "timestamp": 1792173211.9357905
+  },
+  {
+    "id": "266c0980-bc2f-49c7-8f02-18142576f7db",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 67
+    },
+    "timestamp": 1792173239.8818038
+  },
+  {
+    "id": "bdf1d17f-090d-4036-a25c-ceab0620d23b",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen3.5:4b",
+      "messages": 1
+    },
+    "timestamp": 1792173386.8222222
+  },
+  {
+    "id": "36c03336-7268-49c6-96ce-d8b5b3b37929",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 125
+    },
+    "timestamp": 1792173569.023881
+  },
+  {
+    "id": "3d1d5dc4-4ea3-4277-840b-75ac70c03ba1",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen2.5:0.5b",
+      "messages": 1
+    },
+    "timestamp": 1792173751.965675
+  },
+  {
+    "id": "64b684b0-d0ca-4882-99cf-e3b696985f2e",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 161
+    },
+    "timestamp": 1792173757.708269
+  },
+  {
+    "id": "a99eeea4-781f-4488-9a6c-10163dc9342b",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen2.5:0.5b",
+      "messages": 3
+    },
+    "timestamp": 1792173779.5638974
+  },
+  {
+    "id": "ab96a510-c131-4b33-8505-2ba41ebd3cb5",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen2.5:0.5b",
+      "messages": 4
+    },
+    "timestamp": 1792173780.0885355
+  },
+  {
+    "id": "8c02c603-0736-4b99-a030-d1de405386e9",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 569
+    },
+    "timestamp": 1792173785.4318557
+  },
+  {
+    "id": "48bc3239-5187-412f-9c8d-620b42e3443e",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 633
+    },
+    "timestamp": 1792173791.0619478
+  },
+  {
+    "id": "da8e2c57-a7f6-4bcf-bdc8-59b4e556e27b",
+    "category": "tool_call",
+    "description": "Executing tool evaluate_math on ZAID Local Tools MCP",
+    "meta": {
+      "integration_id": "zaid-local-tools",
+      "tool_name": "evaluate_math"
+    },
+    "timestamp": 1792176435.215409
+  },
+  {
+    "id": "49cc3d9f-99ec-48cc-8fed-2ecd63f8fe95",
+    "category": "tool_call",
+    "description": "Executing tool launch_desktop_app on Windows System Automation",
+    "meta": {
+      "integration_id": "windows-native",
+      "tool_name": "launch_desktop_app"
+    },
+    "timestamp": 1792176438.383529
+  },
+  {
+    "id": "4dab5a82-eb56-48f8-aef2-57b8e34d3724",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen2.5:0.5b",
+      "messages": 1
+    },
+    "timestamp": 1792176703.7300267
+  },
+  {
+    "id": "f844c766-fa0d-465c-9b94-7c6d3e9d2a9b",
+    "category": "chat",
+    "description": "Missing integration guidance: Google Drive",
+    "meta": {},
+    "timestamp": 1792176703.7639446
+  },
+  {
+    "id": "982412c7-0cb5-45db-9aad-61ed439b019c",
+    "category": "integration",
+    "description": "Connected GitHub account",
+    "meta": {
+      "account": "@THOUFIKUR (GitHub User)"
+    },
+    "timestamp": 1792177007.72278
+  },
+  {
+    "id": "d275b2dc-89e3-4d5c-83c8-03fa3f5c3f10",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen2.5:0.5b",
+      "messages": 1
+    },
+    "timestamp": 1792177057.3509178
+  },
+  {
+    "id": "66a11c26-a83f-44e7-9c24-9375adec86fd",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 266
+    },
+    "timestamp": 1792177063.8066506
+  },
+  {
+    "id": "c1b99d94-8503-4d97-83a5-318461a0f3a4",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen2.5:0.5b",
+      "messages": 3
+    },
+    "timestamp": 1792177090.661642
+  },
+  {
+    "id": "39b74f85-dade-42ed-98eb-cffbad178f07",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 611
+    },
+    "timestamp": 1792177096.3630288
+  },
+  {
+    "id": "4cda0dac-b748-48b6-9eff-00c2ad7f9330",
+    "category": "tool_call",
+    "description": "Executing tool launch_desktop_app on Windows System Automation",
+    "meta": {
+      "integration_id": "windows-native",
+      "tool_name": "launch_desktop_app"
+    },
+    "timestamp": 1792177123.2263045
+  },
+  {
+    "id": "902716df-b66c-4dfc-a4e5-9be4be04f8a2",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen2.5:0.5b",
+      "messages": 5
+    },
+    "timestamp": 1792177123.2786262
+  },
+  {
+    "id": "e9534f80-7374-484d-b7e8-b67a74540655",
+    "category": "chat",
+    "description": "Executed tool action: Launch Calculator",
+    "meta": {},
+    "timestamp": 1792177123.3051374
+  },
+  {
+    "id": "40ac5a07-3d6e-428d-a6be-1824b6d9146e",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen2.5:0.5b",
+      "messages": 7
+    },
+    "timestamp": 1792177138.8583758
+  },
+  {
+    "id": "0b4c632e-5518-48f0-8740-ca05797be123",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 129
+    },
+    "timestamp": 1792177142.0739386
+  },
+  {
+    "id": "07773c3e-8981-4444-b196-8937e84bfe8d",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen2.5:0.5b",
+      "messages": 9
+    },
+    "timestamp": 1792177159.3122032
+  },
+  {
+    "id": "95481137-b15f-431a-840b-e535464743f9",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 120
+    },
+    "timestamp": 1792177162.1169193
+  },
+  {
+    "id": "1beff9be-c711-4522-b5eb-9387f9344f60",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen2.5:0.5b",
+      "messages": 11
+    },
+    "timestamp": 1792177179.0061843
+  },
+  {
+    "id": "4d86f78b-9a77-4ef0-9b5a-2cd8b4a25d74",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 279
+    },
+    "timestamp": 1792177182.4057298
+  },
+  {
+    "id": "8f4bd067-f921-4832-b6ca-6daeecb2ed37",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen2.5:0.5b",
+      "messages": 1
+    },
+    "timestamp": 1792177234.902665
+  },
+  {
+    "id": "7b6216c7-4e44-4285-9b15-07a004d7e881",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 48
+    },
+    "timestamp": 1792177236.8836706
+  },
+  {
+    "id": "c2ef5676-11ac-449e-8804-d4a4c079c830",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen2.5:0.5b",
+      "messages": 3
+    },
+    "timestamp": 1792177241.9967194
+  },
+  {
+    "id": "12d6cec0-f963-4623-8b0b-911e73e3949d",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 48
+    },
+    "timestamp": 1792177243.2305868
+  },
+  {
+    "id": "396537db-91e6-4647-90bf-1564098eb7e6",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen2.5:0.5b",
+      "messages": 5
+    },
+    "timestamp": 1792177254.5063093
+  },
+  {
+    "id": "b34f74ca-fbe1-4905-bced-4bdeef63da98",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 176
+    },
+    "timestamp": 1792177256.9251196
+  },
+  {
+    "id": "e7603710-7ef7-4ebe-a3e2-ea2ea2482057",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen2.5:0.5b",
+      "messages": 7
+    },
+    "timestamp": 1792177274.2590606
+  },
+  {
+    "id": "e5540b8d-5d0f-474a-8588-5663da3c8439",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 471
+    },
+    "timestamp": 1792177279.203459
+  },
+  {
+    "id": "cd7ca452-b49b-4ead-976f-ed2f5bb0ed50",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen2.5:0.5b",
+      "messages": 9
+    },
+    "timestamp": 1792177283.579037
+  },
+  {
+    "id": "01355c00-c9c2-496e-b64a-139963170af8",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 484
+    },
+    "timestamp": 1792177288.6645398
+  },
+  {
+    "id": "776387db-a055-4b6f-9a40-598f71dfbce1",
+    "category": "chat",
+    "description": "Chat request sent",
+    "meta": {
+      "model": "qwen2.5:0.5b",
+      "messages": 1
+    },
+    "timestamp": 1792177318.1485515
+  },
+  {
+    "id": "7d8526f1-36c2-4e93-bd5f-f33a3410ef51",
+    "category": "chat",
+    "description": "AI response complete",
+    "meta": {
+      "chars": 194
+    },
+    "timestamp": 1792177320.6005347
+  }
+]

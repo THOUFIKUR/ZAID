@@ -1,0 +1,108 @@
+.dock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-6);
+  background: linear-gradient(0deg, var(--bg-1) 0%, transparent 100%);
+  border-top: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: var(--space-2) var(--space-3);
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  color: var(--text-dim);
+  cursor: pointer;
+  transition:
+    color var(--dur-fast) var(--ease),
+    border-color var(--dur-fast) var(--ease),
+    box-shadow var(--dur-fast) var(--ease),
+    background var(--dur-fast) var(--ease);
+  min-width: 56px;
+  min-height: 56px;
+  justify-content: center;
+}
+
+.btn:hover:not(:disabled) {
+  color: var(--orange);
+  border-color: var(--border-strong);
+  box-shadow: var(--glow-sm);
+  background: rgba(255, 122, 26, 0.08);
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: auto; /* keep pointer to show cursor:not-allowed */
+}
+
+.active {
+  color: var(--orange);
+  border-color: var(--border-strong);
+  box-shadow: var(--glow-sm);
+}
+
+/* Central mic button — larger */
+.mic {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--surface-raised);
+  border: 2px solid var(--red);
+  box-shadow: 0 0 12px rgba(255, 59, 47, 0.3);
+  position: relative;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.mic .icon {
+  width: 30px;
+  height: 30px;
+}
+
+.label {
+  font-family: var(--font-display);
+  font-size: 0.5rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+@media (max-width: 767px) {
+  .dock {
+    padding: var(--space-2) var(--space-3);
+    gap: var(--space-1);
+    overflow-x: auto;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .btn {
+    min-width: 52px;
+    min-height: 52px;
+    flex-shrink: 0;
+  }
+
+  .mic {
+    width: 60px;
+    height: 60px;
+  }
+}

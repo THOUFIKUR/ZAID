@@ -1,0 +1,156 @@
+[
+  {
+    "id": "windows-native",
+    "name": "Windows System Automation",
+    "category": "local_tools",
+    "type": "native",
+    "status": "connected",
+    "account_identity": "Windows User (Localhost)",
+    "last_sync": 1792175503.853439,
+    "connected_at": 1792175503.853439,
+    "last_error": null,
+    "tools": [
+      {
+        "name": "launch_desktop_app",
+        "description": "Launch approved local Windows app (calc, notepad, explorer, etc.)",
+        "input_schema": {},
+        "enabled": true
+      },
+      {
+        "name": "get_running_processes",
+        "description": "Monitor active system processes and resource consumption",
+        "input_schema": {},
+        "enabled": true
+      },
+      {
+        "name": "read_allowed_file",
+        "description": "Read permitted user documents and files",
+        "input_schema": {},
+        "enabled": true
+      }
+    ],
+    "config": {}
+  },
+  {
+    "id": "web-search",
+    "name": "DuckDuckGo Web Search",
+    "category": "browser_web",
+    "type": "official_api",
+    "status": "connected",
+    "account_identity": "DuckDuckGo Search Engine",
+    "last_sync": 1792176525.7459598,
+    "connected_at": 1792175503.853439,
+    "last_error": null,
+    "tools": [
+      {
+        "name": "duckduckgo_search",
+        "description": "Search the web for up-to-date information, news, and technical answers",
+        "input_schema": {},
+        "enabled": true
+      }
+    ],
+    "config": {}
+  },
+  {
+    "id": "zaid-local-tools",
+    "name": "ZAID Local Tools MCP",
+    "category": "local_tools",
+    "type": "mcp_server",
+    "status": "connected",
+    "account_identity": "MCP: zaid-local-tools (Localhost)",
+    "last_sync": 1792175575.7277386,
+    "connected_at": 1792175575.7277386,
+    "last_error": null,
+    "tools": [
+      {
+        "name": "get_system_summary",
+        "description": "Get current Windows system specs, CPU load, memory usage, and battery status.",
+        "input_schema": {
+          "properties": {},
+          "type": "object",
+          "title": "get_system_summaryArguments"
+        },
+        "enabled": true
+      },
+      {
+        "name": "evaluate_math",
+        "description": "\n    Safely evaluate a mathematical expression.\n    Examples: '45 * 12 + 100', 'sqrt(144) + 2^3', '1024 * 768'.\n    ",
+        "input_schema": {
+          "properties": {
+            "expression": {
+              "title": "Expression",
+              "type": "string"
+            }
+          },
+          "required": [
+            "expression"
+          ],
+          "type": "object",
+          "title": "evaluate_mathArguments"
+        },
+        "enabled": true
+      },
+      {
+        "name": "read_or_append_scratchpad",
+        "description": "Read current quick notes, or append a new timestamped note.",
+        "input_schema": {
+          "properties": {
+            "text_to_append": {
+              "default": "",
+              "title": "Text To Append",
+              "type": "string"
+            }
+          },
+          "type": "object",
+          "title": "read_or_append_scratchpadArguments"
+        },
+        "enabled": true
+      },
+      {
+        "name": "list_running_app_windows",
+        "description": "List major active window processes on the local Windows machine.",
+        "input_schema": {
+          "properties": {},
+          "type": "object",
+          "title": "list_running_app_windowsArguments"
+        },
+        "enabled": true
+      }
+    ],
+    "config": {
+      "transport": "stdio",
+      "command": "python",
+      "args": [
+        "D:/ZAID/backend/integrations/local_mcp_server.py"
+      ]
+    }
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "category": "developer_tools",
+    "type": "official_api",
+    "status": "connected",
+    "account_identity": "@THOUFIKUR (GitHub User)",
+    "last_sync": 1792177007.7188728,
+    "connected_at": 1792177007.7188728,
+    "last_error": null,
+    "tools": [
+      {
+        "name": "list_repositories",
+        "description": "List user repositories",
+        "input_schema": {},
+        "enabled": true
+      },
+      {
+        "name": "search_issues",
+        "description": "Search GitHub issues and pull requests",
+        "input_schema": {},
+        "enabled": true
+      }
+    ],
+    "config": {
+      "token": ""
+    }
+  }
+]
